@@ -12,15 +12,15 @@ Based on [Angular + Rails with no fuss](http://sebastien.saunier.me/blog/2014/02
 
 ##Get started
 
-Install required gems
+### 1. Install required gems
 ``` Bash
   bundle install
 ```
-Install node modules
+### 2. Install node modules
 ``` Bash
   npm install
 ```
-Install bower components
+### 3. Install bower components
 ``` Bash
   rake bower:install
 ```
@@ -28,6 +28,8 @@ Install bower components
 ##Description
 * Uses [Angular Rails Templates](https://github.com/pitr/angular-rails-templates) with
   karma-ng-html2js-preprocessor for karma [See info](https://github.com/pitr/angular-rails-templates/issues/30#issuecomment-40282414)
+* CSRF Token config [See](/app/assets/javascripts/angular/app.js)
+* Uglifier fix[See](http://blog.berylliumwork.com/2013/07/tips-on-rails-4-assets-compression-with.html)
 
 ##Running karma
 
