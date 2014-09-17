@@ -29,7 +29,7 @@ Based on [Angular + Rails with no fuss](http://sebastien.saunier.me/blog/2014/02
 * Uses [Angular Rails Templates](https://github.com/pitr/angular-rails-templates) with
   karma-ng-html2js-preprocessor for karma [See info](https://github.com/pitr/angular-rails-templates/issues/30#issuecomment-40282414)
 * CSRF Token config [See](/app/assets/javascripts/angular/app.js)
-* Uglifier fix[See](http://blog.berylliumwork.com/2013/07/tips-on-rails-4-assets-compression-with.html)
+* Uglifier fix [See](http://blog.berylliumwork.com/2013/07/tips-on-rails-4-assets-compression-with.html)
 
 ##Running karma
 
