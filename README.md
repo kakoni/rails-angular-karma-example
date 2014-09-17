@@ -2,8 +2,9 @@ rails-angular-karma-example
 ===========================
 
 Example app using latest rails (4.2beta), minitest, angularjs, guard and karma.
-Based on [Angular + Rails with no fuss](http://sebastien.saunier.me/blog/2014/02/04/angular--rails-with-no-fuss.html) +
-[Karma on Rails](http://codetunes.com/2014/karma-on-rails/) articles.
+Based on [Angular + Rails with no fuss](http://sebastien.saunier.me/blog/2014/02/04/angular--rails-with-no-fuss.html),
+[Karma on Rails](http://codetunes.com/2014/karma-on-rails/) and
+[Setting up an AngularJS and Rails 4.1 Project](http://start.jcolemorrison.com/setting-up-an-angularjs-and-rails-4-1-project/) articles.
 
 **Requirements**
 
@@ -30,6 +31,7 @@ Based on [Angular + Rails with no fuss](http://sebastien.saunier.me/blog/2014/02
   karma-ng-html2js-preprocessor for karma [See info](https://github.com/pitr/angular-rails-templates/issues/30#issuecomment-40282414)
 * CSRF Token config [See](/app/assets/javascripts/angular/app.js)
 * Uglifier fix [See](http://blog.berylliumwork.com/2013/07/tips-on-rails-4-assets-compression-with.html)
+* Routing. Routes all valid requests to angular [See](/config/routes.rb)
 
 ##Running karma
 
