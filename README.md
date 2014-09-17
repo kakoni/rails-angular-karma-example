@@ -12,18 +12,22 @@ Based on [Angular + Rails with no fuss](http://sebastien.saunier.me/blog/2014/02
 
 ##Get started
 
-1. Install required gems
+Install required gems
 ``` Bash
   bundle install
 ```
-2. Install node modules
+Install node modules
 ``` Bash
   npm install
 ```
-3. Install bower components
+Install bower components
 ``` Bash
   rake bower:install
 ```
+
+##Description
+* Uses [Angular Rails Templates](https://github.com/pitr/angular-rails-templates) with
+  karma-ng-html2js-preprocessor for karma [See info](https://github.com/pitr/angular-rails-templates/issues/30#issuecomment-40282414)
 
 ##Running karma
 

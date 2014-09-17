@@ -21,8 +21,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bower-rails', '~> 0.8.3'
 gem 'angular-rails-templates'
 
-
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
